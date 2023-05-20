@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gioithieu.GioiThieuFragment">
+
+    <TextView
+        android:id="@+id/tv_top_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Thông tin giới thiệu"
+        android:textAllCaps="true"
+        android:background="#FFD600"
+        android:textColor="#D50000"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/list_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_top_web" />
+
+</RelativeLayout>

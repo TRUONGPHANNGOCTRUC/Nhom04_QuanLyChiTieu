@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.thongke.ChiThongKe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống Kê Khoản Chi"
+        android:textSize="30dp"
+        android:background="#FFD600"
+        android:textColor="#D50000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFD600"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Ngày bắt đầu"
+            android:textColor="#D50000"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.053" />
+
+        <TextView
+            android:id="@+id/tv_end"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="93dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFD600"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="Ngày kết thúc"
+            android:textColor="#D50000"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_start"
+            app:layout_constraintVertical_bias="0.101" />
+
+        <ImageView
+            android:id="@+id/date_pick_start"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/img"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_start"
+            app:layout_constraintTop_toTopOf="@+id/tv_start"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/date_pick_end"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/img"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_end"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="80dp"
+            app:layout_constraintStart_toEndOf="@+id/tv_end"
+            app:layout_constraintTop_toTopOf="@+id/tv_end"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFD600"
+            android:text="Tìm"
+            android:textColor="#D50000"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_end" />
+
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="90dp"
+            android:hint="Dữ liệu thống kê"
+            android:textColor="#DF1A1A"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.327"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_end"
+            app:layout_constraintVertical_bias="0.002" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Thống Kê:"
+            android:textColor="#DF1A1A"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_end"
+            app:layout_constraintVertical_bias="0.002" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
