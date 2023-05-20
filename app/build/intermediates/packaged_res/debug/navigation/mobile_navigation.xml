@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.asstkgd.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_chi"
+        android:name="com.example.asstkgd.ui.chi.ChiFragment"
+        android:label="Quản lý Chi"
+        tools:layout="@layout/fragment_chi" />
+    <fragment
+        android:id="@+id/nav_thu"
+        android:name="com.example.asstkgd.ui.thu.ThuFragment"
+        android:label="Quản lý thu"
+        tools:layout="@layout/fragment_thu" />
+    <fragment
+        android:id="@+id/nav_gioi_thieu"
+        android:name="com.example.asstkgd.ui.gioithieu.GioiThieuFragment"
+        android:label="Giới thiệu"
+        tools:layout="@layout/fragment_gioi_thieu" />
+    <fragment
+        android:id="@+id/nav_thong_ke"
+        android:name="com.example.asstkgd.ui.thongke.ThongKeFragment"
+        android:label="Thống kê"
+        tools:layout="@layout/fragment_thong_ke" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.asstkgd.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+</navigation>
