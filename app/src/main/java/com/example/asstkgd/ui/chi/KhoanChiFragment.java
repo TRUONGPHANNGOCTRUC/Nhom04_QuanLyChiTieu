@@ -26,7 +26,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.asstkgd.Adapter.KhoanChiAdapter;
 import com.example.asstkgd.Adapter.SpinnerLoaiChiAdapter;
 import com.example.asstkgd.DAO.KhoanChiDatabase;
-import com.example.asstkgd.DAO.KhoannThuDatabase;
 import com.example.asstkgd.DAO.LoaiChiDatebase;
 import com.example.asstkgd.Entity.KhoanChi;
 import com.example.asstkgd.Entity.LoaiChi;
