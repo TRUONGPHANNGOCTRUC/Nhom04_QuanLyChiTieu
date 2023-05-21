@@ -11,6 +11,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.asstkgd.Adapter.TaiKhoanDatabaseHelper;
+import com.example.asstkgd.Entity.TaiKhoan;
+
 public class Ass extends AppCompatActivity {
     private TextView txtReforpass;
     private TextView textView6;
@@ -25,9 +28,7 @@ public class Ass extends AppCompatActivity {
     private ImageView btnGg;
     private ImageView btnTw;
     private ImageView btnSc;
-
-
-
+    TaiKhoanDatabaseHelper helper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,16 +49,22 @@ public class Ass extends AppCompatActivity {
         btnTw = (ImageView) findViewById(R.id.btn_tw);
         btnSc = (ImageView) findViewById(R.id.btn_sc);
 
-        btnLogin.setOnClickListener(view -> {
-            String username = "admin";
-            String password = "admin";
-            if (edUser.getText().toString().equals(username) && edPass.getText().toString().equals(password)) {
-                Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
-                startActivity(new Intent(Ass.this, MainActivity.class));
-                finish();
-            } else {
-                Toast.makeText(getApplicationContext(), "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String tk = edUser.getText().toString();
+                if (helper.searkTK(tk) == true) {
+                    if (edPass.getText().toString().equals(helper.searchPass(tk))) {
+                        Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
+                        Intent mh2 = new Intent(Ass.this, MainActivity.class);
+                        startActivity(mh2);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Tài khoản không tồn tại", Toast.LENGTH_SHORT).show();
+                    }
+                }
+
             }
         });
-    }
+
+        }
 }

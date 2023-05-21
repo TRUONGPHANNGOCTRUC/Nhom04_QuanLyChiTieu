@@ -11,7 +11,7 @@ import com.example.asstkgd.Database.TaiKhoan;
 import com.example.asstkgd.Entity.KhoanChi;
 
 @Database(entities = {TaiKhoan.class}, version = 2)
-public abstract class TaiKhoanDatabase extends RoomDatabase {
+public abstract class TaiKhoanDatabase extends RoomDatabase{
     private static final String DATABASE_NAME = "Taikhoan.db";
 
     //tao bang taikhoan
