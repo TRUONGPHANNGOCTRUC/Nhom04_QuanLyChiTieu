@@ -9,6 +9,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.asstkgd.Adapter.TaiKhoanDatabaseHelper;
+import com.example.asstkgd.Entity.TaiKhoan;
+
 public class DangKyActivity extends AppCompatActivity {
     private EditText edtUser;
     private EditText edtPass;
@@ -17,7 +20,7 @@ public class DangKyActivity extends AppCompatActivity {
     private EditText edtDiaChi;
     private  EditText edtSDT;
     Button btnDangKy;
-
+    TaiKhoanDatabaseHelper helper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,21 +34,27 @@ public class DangKyActivity extends AppCompatActivity {
         edtSDT = (EditText) findViewById(R.id.editTextSDT);
         btnDangKy = (Button) findViewById(R.id.buttonDangKy);
 
-        //kiem tra dang nhap sau khi click button dang nhap
-        btnDangKy.setOnClickListener(this::onClick);
+        // kiem tra 2 lan nhap mat khau có trung khong
+        btnDangKy.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                if(edtPass.getText().toString().equals(edtPass2.getText().toString())){
+                    TaiKhoan kh = new TaiKhoan();
+                    kh.setM_TK(edtUser.getText().toString());
+                    kh.setM_Matkhau(edtPass.getText().toString());
+                    kh.setM_Ten(edtTen.getText().toString());
+                    kh.setM_Diachi(edtDiaChi.getText().toString());
+                    kh.setM_Sdt(edtSDT.getText().toString());
+                    helper.insertTK(kh);
+                    Toast.makeText(getApplicationContext(),"Đăng ký thành công", Toast.LENGTH_SHORT).show();
+                    Intent mh2 = new Intent(DangKyActivity.this, Ass.class);
+                    startActivity(mh2);
+                }else{
+                    Toast.makeText(getApplicationContext(),"Mật khẩu không khớp nhau", Toast.LENGTH_LONG).show();
+                }
 
-    }
-
-    private void onClick(View view) {
-        String username = "admin";
-        String password = "admin";
-        if (edtUser.getText().toString().equals(username) && edtPass.getText().toString().equals(password)) {
-            Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
-            startActivity(new Intent(DangKyActivity.this, MainActivity.class));
-            finish();
-        } else {
-            Toast.makeText(getApplicationContext(), "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
-        }
+            }
+        });
 
     }
 }

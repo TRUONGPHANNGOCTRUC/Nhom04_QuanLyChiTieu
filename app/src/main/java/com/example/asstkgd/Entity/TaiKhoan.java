@@ -18,6 +18,10 @@ public class TaiKhoan {
         this.m_Sdt = m_Sdt;
     }
 
+    public TaiKhoan() {
+
+    }
+
     public int getId() {
         return id;
     }
