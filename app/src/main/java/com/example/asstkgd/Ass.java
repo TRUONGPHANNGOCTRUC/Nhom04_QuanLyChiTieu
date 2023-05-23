@@ -49,6 +49,13 @@ public class Ass extends AppCompatActivity {
         btnTw = (ImageView) findViewById(R.id.btn_tw);
         btnSc = (ImageView) findViewById(R.id.btn_sc);
 
+        create.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                 Intent mhdk = new Intent(Ass.this, DangKyActivity.class);
+                        startActivity(mhdk);
+            }
+        });
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

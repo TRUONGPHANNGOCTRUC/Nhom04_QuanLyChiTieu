@@ -24,7 +24,7 @@ public class DangKyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_DangKy);
+        setContentView(R.layout.activity_dangky);
 
         edtUser = (EditText) findViewById(R.id.editTextTK);
         edtPass = (EditText) findViewById(R.id.editTextMK);
@@ -34,7 +34,6 @@ public class DangKyActivity extends AppCompatActivity {
         edtSDT = (EditText) findViewById(R.id.editTextSDT);
         btnDangKy = (Button) findViewById(R.id.buttonDangKy);
 
-        // kiem tra 2 lan nhap mat khau có trung khong
         btnDangKy.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
