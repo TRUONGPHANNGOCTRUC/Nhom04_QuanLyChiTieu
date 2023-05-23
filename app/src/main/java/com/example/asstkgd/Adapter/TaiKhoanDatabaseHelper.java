@@ -89,7 +89,6 @@ public class TaiKhoanDatabaseHelper extends SQLiteOpenHelper {
         db.close();
         return false;
     }
-
     public String searchPass(String tk) {
         db = this.getReadableDatabase();
         String query = "select id, pass from " + TABLE_NAME;

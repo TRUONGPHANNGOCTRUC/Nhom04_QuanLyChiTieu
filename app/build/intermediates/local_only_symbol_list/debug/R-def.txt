@@ -50,6 +50,7 @@ id btn_login
 id btn_sc
 id btn_search
 id btn_tw
+id buttonDangKy
 id create
 id datePicker
 id date_pick_end
@@ -61,6 +62,12 @@ id ed_name
 id ed_note
 id ed_pass
 id ed_user
+id editTextDiaChi
+id editTextMK
+id editTextSDT
+id editTextTK
+id editTextTenChuTK
+id editTextXNMK
 id imageView
 id linearLayout
 id list_web
@@ -112,6 +119,7 @@ id view3
 id view_page2
 id view_page_thong_ke
 layout activity_ass
+layout activity_dangky
 layout activity_main
 layout app_bar_main
 layout content_main

@@ -1,114 +1,122 @@
 [
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_thong_ke.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_thong_ke.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/dialog_update_khoan_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/dialog_update_khoan_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_khoan_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_khoan_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/diolag_update_loai_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/diolag_update_loai_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\content_main.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_gioi_thieu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_gioi_thieu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\diolag_update_loai_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\diolag_update_loai_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/app_bar_main.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\activity_ass.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\activity_ass.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/item_loai_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/item_loai_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\activity_dangky.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\activity_dangky.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_loai_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_loai_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_chi_thong_ke.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_chi_thong_ke.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/dialog_khoan_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/dialog_khoan_thu.xml"
+        "merged": "com.example.asstkgd.app-mergeDebugResources-44:/layout/activity_dangky.xml",
+        "source": "com.example.asstkgd.app-main-47:/layout/activity_dangky.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_khoan_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_khoan_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_loai_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_loai_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/dialog_update_khoan_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/dialog_update_khoan_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\dialog_add_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\dialog_add_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_khoan_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_khoan_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\item_khoan_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\item_khoan_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/item_spinner.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/item_spinner.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_khoan_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_khoan_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/dialog_add_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/dialog_add_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\item_spinner.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\item_spinner.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_loai_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_loai_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_loai_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_loai_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/dialog_add_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/dialog_add_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\dialog_add_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\dialog_add_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/item_khoan_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/item_khoan_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_thu_thongke.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_thu_thongke.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_thu.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_thu.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\item_loai_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\item_loai_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/content_main.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/content_main.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_thu_thongke.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_thu_thongke.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\diolag_update_loai_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\diolag_update_loai_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_home.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\dialog_khoan_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\dialog_khoan_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/nav_header_main.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/nav_header_main.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_thong_ke.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_thong_ke.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/activity_main.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/activity_main.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\item_khoan_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\item_khoan_thu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/item_khoan_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/item_khoan_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\dialog_khoan_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\dialog_khoan_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/dialog_khoan_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/dialog_khoan_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/diolag_update_loai_chi.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/diolag_update_loai_chi.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_gioi_thieu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_gioi_thieu.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/fragment_chi_thong_ke.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/fragment_chi_thong_ke.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\dialog_update_khoan_chi.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\dialog_update_khoan_chi.xml"
     },
     {
-        "merged": "com.example.asstkgd.app-mergeDebugResources-4:/layout/activity_ass.xml",
-        "source": "com.example.asstkgd.app-main-7:/layout/activity_ass.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\dialog_update_khoan_thu.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\dialog_update_khoan_thu.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\app_bar_main.xml"
     }
 ]
