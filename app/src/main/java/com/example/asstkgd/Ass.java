@@ -12,7 +12,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.asstkgd.Adapter.TaiKhoanDatabaseHelper;
-import com.example.asstkgd.Entity.TaiKhoan;
 
 public class Ass extends AppCompatActivity {
     private TextView txtReforpass;
@@ -28,7 +27,7 @@ public class Ass extends AppCompatActivity {
     private ImageView btnGg;
     private ImageView btnTw;
     private ImageView btnSc;
-    TaiKhoanDatabaseHelper helper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,22 +48,26 @@ public class Ass extends AppCompatActivity {
         btnTw = (ImageView) findViewById(R.id.btn_tw);
         btnSc = (ImageView) findViewById(R.id.btn_sc);
 
+        TaiKhoanDatabaseHelper helper = new TaiKhoanDatabaseHelper(this);
+        helper.open();
         create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                  Intent mhdk = new Intent(Ass.this, DangKyActivity.class);
                         startActivity(mhdk);
+                        finish();
             }
         });
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String tk = edUser.getText().toString();
-                if (helper.searkTK(tk) == true) {
+                if (helper.searchTK(tk) == true) {
                     if (edPass.getText().toString().equals(helper.searchPass(tk))) {
                         Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
                         Intent mh2 = new Intent(Ass.this, MainActivity.class);
                         startActivity(mh2);
+                        finish();
                     } else {
                         Toast.makeText(getApplicationContext(), "Tài khoản không tồn tại", Toast.LENGTH_SHORT).show();
                     }

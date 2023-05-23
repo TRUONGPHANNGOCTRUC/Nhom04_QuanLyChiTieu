@@ -37,7 +37,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="16dp"
                 android:fontFamily="sans-serif"
                 android:padding="8dp"
                 android:text="Đăng ký"
@@ -45,9 +45,9 @@
                 android:textSize="45dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
                 android:id="@+id/editTextTK"
@@ -169,6 +169,7 @@
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:hint="Số điện thoại"
+                android:inputType="numberDecimal"
                 android:paddingLeft="20dp"
                 android:paddingTop="13dp"
                 android:paddingRight="20dp"
@@ -178,13 +179,10 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/editTextTenChuTK"
                 app:layout_constraintTop_toBottomOf="@+id/editTextXNMK"
-
-                android:inputType="numberDecimal"
-                android:textColor="#FFFFFF"
-                tools:layout_editor_absoluteX="143dp"
-                tools:layout_editor_absoluteY="457dp" />
+             />
 
             <Button
+                android:onClick="InsertTK"
                 android:id="@+id/buttonDangKy"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

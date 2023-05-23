@@ -48,8 +48,15 @@ public class Ass extends AppCompatActivity {
         btnSc = (ImageView) findViewById(R.id.btn_sc);
 
         btnLogin.setOnClickListener(view -> {
-            startActivity(new Intent(Ass.this,MainActivity.class));
-            finish();
+            String usename = "admin";
+            String password = "admin";
+            if (edUser.getText().toString().equals(username) && edPass.getText().toString().equals(password)) {
+                Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(Ass.this, MainActivity.class));
+                finish();
+            } else {pCompactActivit
+                Toast.makeText(getApplicationContext(), "Đăng nhập thất bại", Toast.LENGTH_LONG).show();
+            }
         });
     }
 }

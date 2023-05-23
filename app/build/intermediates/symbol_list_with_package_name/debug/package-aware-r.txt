@@ -2699,6 +2699,7 @@ id btn_login
 id btn_sc
 id btn_search
 id btn_tw
+id buttonDangKy
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2788,6 +2789,12 @@ id ed_name
 id ed_note
 id ed_pass
 id ed_user
+id editTextDiaChi
+id editTextMK
+id editTextSDT
+id editTextTK
+id editTextTenChuTK
+id editTextXNMK
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -3248,6 +3255,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_ass
+layout activity_dangky
 layout activity_main
 layout app_bar_main
 layout content_main
