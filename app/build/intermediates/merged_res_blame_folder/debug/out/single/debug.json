@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\drawable\\input_bg.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\drawable_google_logo.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\drawable\\google_logo.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\drawable_input_bg.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\drawable\\input_bg.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\activity_main.xml"
     },
     {
         "merged": "com.example.asstkgd.app-merged_res-45:/layout_activity_dangky.xml.flat",
@@ -44,24 +44,24 @@
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\drawable-v24\\img_2.png"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\drawable_facebook_logo.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\drawable\\facebook_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\menu_main.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\menu\\main.xml"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\layout_fragment_loai_chi.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_loai_chi.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\menu_main.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\menu\\main.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.webp.flat",

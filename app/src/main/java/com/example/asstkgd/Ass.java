@@ -28,6 +28,7 @@ public class Ass extends AppCompatActivity {
     private ImageView btnTw;
     private ImageView btnSc;
 
+    TaiKhoanDatabaseHelper helper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,23 +49,24 @@ public class Ass extends AppCompatActivity {
         btnTw = (ImageView) findViewById(R.id.btn_tw);
         btnSc = (ImageView) findViewById(R.id.btn_sc);
 
-        TaiKhoanDatabaseHelper helper = new TaiKhoanDatabaseHelper(this);
-        helper.open();
+        helper = new TaiKhoanDatabaseHelper(this);
+
         create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                 Intent mhdk = new Intent(Ass.this, DangKyActivity.class);
-                        startActivity(mhdk);
-                        finish();
+                Intent mhdk = new Intent(Ass.this, DangKyActivity.class);
+                startActivity(mhdk);
+                finish();
             }
         });
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String tk = edUser.getText().toString();
-                if (helper.searchTK(tk) == true) {
-                    if (edPass.getText().toString().equals(helper.searchPass(tk))) {
-                        Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
+                String id = edUser.getText().toString();
+                String pass = edPass.getText().toString();
+                boolean kiemtra = helper.KiemTraDangNhap(id,pass);
+                 if(kiemtra == true){
+                   Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_LONG).show();
                         Intent mh2 = new Intent(Ass.this, MainActivity.class);
                         startActivity(mh2);
                         finish();
@@ -73,8 +75,7 @@ public class Ass extends AppCompatActivity {
                     }
                 }
 
-            }
-        });
 
-        }
+        });
+    }
 }
