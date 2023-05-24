@@ -12,12 +12,12 @@
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\diolag_update_loai_thu.xml",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\diolag_update_loai_thu.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-main-47:\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.5\\com.example.asstkgd.app-mergeDebugResources-44:\\layout\\activity_ass.xml",

@@ -6,9 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import androidx.annotation.Nullable;
-
-import com.example.asstkgd.DangKyActivity;
 import com.example.asstkgd.Entity.TaiKhoan;
 
 public class TaiKhoanDatabaseHelper extends SQLiteOpenHelper {
@@ -22,21 +19,19 @@ public class TaiKhoanDatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_IP = "ip";
     private static final String COLUMN_NPHONE = "nphone";
 
-    public static final String TABLE_CRETAE = "create table DuLieuTaiKhoan( id text primary key not null, " + "pass text not null, name text not null, ip text not null, nphone text );";
+    public static final String TABLE_CREATE = "create table DuLieuTaiKhoan ( id text primary key not null," +  " pass text not null,name text not null, ip text not null,nphone text );";
     SQLiteDatabase db;
 
-    public TaiKhoanDatabaseHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
-    }
+
 
     public TaiKhoanDatabaseHelper(Context context) {
-        super(context, "QuanLyChiTieu", null, 1);
+        super(context, DATABASE_NAME, null, VERSION);
     }
 
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL((TABLE_CRETAE));
+        db.execSQL((TABLE_CREATE));
         this.db = db;
 
     }
@@ -48,6 +43,7 @@ public class TaiKhoanDatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(query);
         this.onCreate(db);
     }
+
 
     // them tai khoan vao csdl
     public void insertTK(TaiKhoan kh) {
@@ -72,42 +68,26 @@ public class TaiKhoanDatabaseHelper extends SQLiteOpenHelper {
     }
 
     // tim kiem tai khoan nguoi dung theo id nguoi dung nhap vao
-    public boolean searchTK(String TK) {
-        db = this.getReadableDatabase();
-        String query = "select id from " + TABLE_NAME;
-        Cursor cursor = db.rawQuery(query, null);
-        String username;
-        if (cursor.moveToFirst()) {
-            do {
-                username = cursor.getString(0);
-                if (username.equals(TK)) {
-                    db.close();
-                    return true;
-                }
-            } while (cursor.moveToNext());
+    public boolean searchTK(String id) {
+        db = this.getWritableDatabase();
+        String query = "select * from DuLieuTaiKhoan where id = ?";
+        Cursor cursor = db.rawQuery(query, new String[]{id});
+        if(cursor.getCount()>0) {
+            return true;
+        }else{
+            return false;
         }
-        db.close();
-        return false;
     }
-    public String searchPass(String tk) {
-        db = this.getReadableDatabase();
-        String query = "select id, pass from " + TABLE_NAME;
-        Cursor cursor = db.rawQuery(query, null);
-        String username;
-        String pass = "Không tìm thấy";
-        if (cursor.moveToFirst()) {
-            do {
-                username = cursor.getString(0);
-                if (username.equals(1)) {
-                    pass = cursor.getString(1);
-                    break;
-                }
-            } while (cursor.moveToNext());
+    public boolean KiemTraDangNhap(String id, String pass) {
+        db = this.getWritableDatabase();
+        String query = "select * from DuLieuTaiKhoan where id = ? and pass = ?";
+        Cursor cursor = db.rawQuery(query, new String[]{id, pass});
+        if (cursor.getCount() > 0) {
+            return true;
+        } else {
+            return false;
         }
-        db.close();
-        return pass;
     }
-
     public void deleteAll() {
         db = this.getWritableDatabase();
         db.delete(this.TABLE_NAME, null, null);

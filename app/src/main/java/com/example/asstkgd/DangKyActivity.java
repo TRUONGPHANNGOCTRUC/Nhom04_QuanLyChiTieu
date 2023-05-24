@@ -21,7 +21,8 @@ public class DangKyActivity extends AppCompatActivity {
     private  EditText edtSDT;
     Button btnDangKy;
 
-
+    TaiKhoanDatabaseHelper helper = new TaiKhoanDatabaseHelper(thisHo);
+        //helper.open();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +36,7 @@ public class DangKyActivity extends AppCompatActivity {
         edtDiaChi = (EditText) findViewById(R.id.editTextDiaChi);
         edtSDT = (EditText) findViewById(R.id.editTextSDT);
         btnDangKy = (Button) findViewById(R.id.buttonDangKy);
-        TaiKhoanDatabaseHelper helper = new TaiKhoanDatabaseHelper(this);
-        helper.open();
+
         btnDangKy.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -60,22 +60,5 @@ public class DangKyActivity extends AppCompatActivity {
         });
 
     }
-//    public void InsertTK(){
-//        if(edtPass.getText().toString().equals(edtPass2.getText().toString())){
-//            TaiKhoan kh = new TaiKhoan();
-//                    kh.setM_TK(edtUser.getText().toString());
-//                    kh.setM_Matkhau(edtPass.getText().toString());
-//                    kh.setM_Ten(edtTen.getText().toString());
-//                    kh.setM_Diachi(edtDiaChi.getText().toString());
-//                    kh.setM_Sdt(edtSDT.getText().toString());
-//                    helper.insertTK(kh);
-//            Toast.makeText(getApplicationContext(),"Đăng ký thành công", Toast.LENGTH_SHORT).show();
-//            Intent mh2 = new Intent(DangKyActivity.this, MainActivity.class);
-//            startActivity(mh2);
-//            finish();
-//        }else{
-//            Toast.makeText(getApplicationContext(),"Mật khẩu không khớp nhau", Toast.LENGTH_LONG).show();
-//        }
-//
-//    }
+
 }
